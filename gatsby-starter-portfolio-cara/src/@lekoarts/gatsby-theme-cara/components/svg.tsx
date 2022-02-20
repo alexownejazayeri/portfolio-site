@@ -4,7 +4,7 @@ import { jsx } from "theme-ui"
 import { hidden } from "../../styles/utils"
 
 const icons = {
-  eyeball: {
+  eyecon1: {
     shape: (
       <React.Fragment>
         <svg>
@@ -16,6 +16,25 @@ const icons = {
               <stop offset="0.0885417" stop-color="#9BB4F4" stop-opacity="0.848437" />
               <stop offset="0.369792" stop-color="#EA66FF" stop-opacity="0.7" />
               <stop offset="0.854167" stop-color="#FFD18B" />
+            </linearGradient>
+          </defs>
+        </svg>
+      </React.Fragment>
+    ),
+    viewBox: `0 0 106 91`,
+  },
+  eyecon2: {
+    shape: (
+      <React.Fragment>
+        <svg width="102" height="88" viewBox="0 0 102 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M37.3651 16.6548C24.9745 19.8119 18.8291 23.0335 9.62801 31.9673C7.22294 38.8334 7.6636 42.8465 11.2082 50.2545C11.218 55.5716 12.1083 58.2437 17.5133 61.6757C20.1645 66.9653 22.8574 68.611 28.7132 70.3946C33.8314 73.0764 36.9059 73.8702 42.641 74.4144C50.2124 76.9274 54.3499 77.3709 61.4636 75.7319C64.5995 76.1682 66.6386 76.2045 76.3178 71.7892C82.8177 70.179 85.65 68.098 88.8352 61.6856C92.71 56.6692 93.3116 51.0012 93.7814 39.7954C94.2512 28.5897 95.7865 30.6593 93.6372 26.0375C85.1157 19.4261 78.8767 16.7686 63.9802 14.7349C57.896 13.5431 52.9752 13.5551 37.3651 16.6548Z" fill="url(#paint0_linear_41_4)" />
+          <path d="M50.7769 17.6258C59.6102 16.7554 63.6285 18.2529 69.7694 23.1073C69.7999 31.4068 68.2966 35.7743 62.6563 43.0005C59.3348 48.9145 60.252 48.821 55.3991 49.1357C50.5462 49.4504 47.5309 49.3594 42.372 46.7476C37.6387 43.7289 35.19 41.816 31.1721 38.0286C24.9447 32.8444 23.64 29.5413 25.9633 22.809C28.4334 20.8195 31.1349 20.0989 37.9197 19.4016C42.3011 17.9878 44.9837 17.4494 50.7769 17.6258Z" fill="#383838" stroke="#383838" />
+          <path d="M34.8376 33.9034C30.6737 34.0733 28.2219 33.6547 24.7083 30.98C24.1066 27.5926 24.6893 25.9583 26.9009 23.383C30.5075 21.2524 32.3998 20.974 35.5941 21.7771C39.2081 23.336 41.3049 24.098 43.361 28.1336C43.361 28.1336 39.0015 33.7335 34.8376 33.9034Z" fill="white" stroke="white" />
+          <defs>
+            <linearGradient id="paint0_linear_41_4" x1="59.8412" y1="12.3155" x2="41.7428" y2="75.0239" gradientUnits="userSpaceOnUse">
+              <stop offset="0.0885417" stop-color="#5ED8EE" />
+              <stop offset="0.369792" stop-color="#FAA2A2" />
+              <stop offset="0.854167" stop-color="#FFD33F" />
             </linearGradient>
           </defs>
         </svg>
@@ -86,7 +105,7 @@ const icons = {
   },
 }
 
-type IconType = "triangle" | "circle" | "arrowUp" | "upDown" | "box" | "hexa" | "cross" | "eyeball"
+type IconType = "triangle" | "circle" | "arrowUp" | "upDown" | "box" | "hexa" | "cross" | "eyecon1" | "eyecon2"
 
 type SVGProps = {
   stroke?: boolean

@@ -51,7 +51,7 @@ const Projects = ({ offset, factor = 2 }: { offset: number; factor?: number }) =
       <Svg icon="box" width={6} color="icon_orange" left="10%" top="10%" />
       <Svg icon="box" width={12} color="icon_yellow" left="29%" top="26%" />
       <Svg icon="hexa" width={16} stroke color="icon_red" left="75%" top="30%" />
-      <Svg icon="hexa" width={8} stroke color="icon_yellow" left="80%" top="70%" />
+      <Svg icon="hexa" width={8} stroke color="icon_orange" left="80%" top="70%" />
     </Divider>
   </div>
 )
