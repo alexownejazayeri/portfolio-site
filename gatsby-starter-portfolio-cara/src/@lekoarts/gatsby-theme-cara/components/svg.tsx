@@ -20,7 +20,8 @@ const icons = {
           </defs>
         </svg>
       </React.Fragment>
-    )
+    ),
+    viewBox: `0 0 106 91`,
   },
   triangle: {
     shape: (
