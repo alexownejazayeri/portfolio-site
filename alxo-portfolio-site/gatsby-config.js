@@ -25,9 +25,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Cara - @lekoarts/gatsby-theme-cara`,
-        short_name: `Cara`,
-        description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+        name: `Alex Ownejazayeri - React Developer`,
+        short_name: `ALXO`,
+        description: `Alex O's Software Portfolio`,
         start_url: `/`,
         background_color: `#141821`,
         // This will impact how browsers show your PWA/website
